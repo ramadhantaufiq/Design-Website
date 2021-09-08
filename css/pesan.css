@@ -1,0 +1,168 @@
+
+body {
+  background-color: #ffffff;
+  font-family: 'Assistans', sans-serif, 'Roboto';
+  color: #071C4D;
+}
+
+/* navbar */
+
+nav{
+  background-color: #e1f3ff;
+}
+.navbar-brand img {
+  max-height: 100px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071C4D;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #021135 !important;
+}
+
+.btn-navbar-right {
+  margin-top: -5px !important;
+  margin-bottom: -15px !important;
+  margin-right: -32px !important;
+  height: 50px;
+
+}
+
+.btn-login {
+  background-color: #1E3771;
+  color: #ffffff;
+}
+
+.btn-login:hover {
+  background-color: #3f72af;
+  color: #ffffff;
+}
+
+/* main content */
+main{
+  margin-top: 100px;
+}
+
+.kontainer {
+  background-color: #ffffff !important;
+  border: none;
+  border-radius: 20px;
+}
+
+h6.text-muted {
+  color: #6c757d85 !important;
+}
+
+h4.text-danger {
+  margin-left: 250px;
+  color: #f11126 !important;
+}
+
+.htwo {
+  margin-left: 270px;
+}
+
+.scol {
+  padding-left: 60px;
+}
+
+.row.r2 {
+  margin-bottom: 20px;
+}
+
+.row.r2:after {
+  content: '.';
+  font-size: 0;
+  display: block;
+  height: 1px;
+  width: 77%;
+  background: #a9abae3d;
+}
+
+h3.payment {
+  margin-top: 30px;
+}
+
+h6.payment-method {
+  margin-top: 30px;
+}
+
+.r5.col-2 {
+  padding-left: 0;
+}
+
+div.col-2 {
+  cursor: pointer;
+}
+
+.personalDetails {
+  margin-right: 100px;
+  padding-top: 30px;
+}
+
+.form-control {
+  border: none;
+  border-radius: none;
+  border-bottom: 1px solid #a9abae3d;
+}
+
+.form-control:focus {
+  border: none;
+  color: #000 !important;
+  font-weight: bold;
+  border-color: #fff;
+  border-bottom: 1px solid #a9abae3d;
+  outline: 0;
+  box-shadow: 0 0 0 0 rgba(0, 123, 255, .25);
+}
+
+.far {
+  color: #adb5bd;
+}
+
+.th {
+  margin-top: 10px;
+}
+
+.btn.btn-biru {
+  border: none;
+  border-radius: 10px;
+  width: 30%;
+  color: #fff;
+  height: 20%;
+  background-color: #1E3771;
+}
+
+.btn.btn-biru:hover{
+  background-color: #3f72af;
+}
+
+@media screen and (max-width: 1200px) {
+  .rcol {
+      width: 100%;
+  }
+
+  .scol {
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+      width: 95%;
+  }
+
+  .row.r2:after {
+      width: 95%;
+  }
+}
+
+.section-footer a {
+  color: #071C4D;
+}
+.section-footer a:hover{
+  color: #437dd3;
+}
